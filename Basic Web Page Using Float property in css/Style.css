@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    margin: 30px;
+    width: 1200px;
+    height: 500px;
+    background-color: aqua;
+    border: 5px solid black;
+}
+
+/* Row First */
+.row1 {
+    width: 1200px;
+    height: 200px;
+    background-color: rgb(89, 90, 89);
+    text-align: center;
+}
+
+.row1c1 {
+    width: 392px;
+    height: 192px;
+    background-color: rgb(76, 127, 138);
+    float: left;
+    border: 4px solid black;
+}
+
+.row1c2 {
+    width: 392px;
+    height: 192px;
+    background-color: rgb(61, 176, 199);
+    float: left;
+    border: 4px solid black;
+}
+
+.row1c3 {
+    width: 392px;
+    height: 192px;
+    background-color: rgb(7, 209, 249);
+    float: left;
+    border: 4px solid black;
+}
+
+/* Row Second */
+.row2 {
+    width: 1192px;
+    height: 192px;
+    background-color: rgb(104, 73, 121);
+    border: 4px solid black;
+    text-align: center;
+}
+
+/* Row Third */
+.row3 {
+    width: 1200px;
+    height: 100px;
+    background-color: rgb(43, 37, 103);
+    text-align: center;
+}
+
+.row3c1 {
+    width: 592px;
+    height: 92px;
+    background-color: rgb(140, 141, 66);
+    float: left;
+    border: 4px solid black;
+}
+
+.row3c2 {
+    width: 592px;
+    height: 92px;
+    background-color: rgb(217, 220, 15);
+    float: left;
+    border: 4px solid black;
+}
