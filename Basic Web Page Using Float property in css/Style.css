@@ -3,6 +3,7 @@
     padding: 0px;
 }
 
+/* main Div */
 .main {
     margin: 30px;
     width: 1200px;
@@ -19,6 +20,7 @@
     text-align: center;
 }
 
+/* Row First Column First*/
 .row1c1 {
     width: 392px;
     height: 192px;
@@ -27,6 +29,7 @@
     border: 4px solid black;
 }
 
+/* Row First column Second */
 .row1c2 {
     width: 392px;
     height: 192px;
@@ -35,6 +38,7 @@
     border: 4px solid black;
 }
 
+/* Row First column Third */
 .row1c3 {
     width: 392px;
     height: 192px;
@@ -42,6 +46,7 @@
     float: left;
     border: 4px solid black;
 }
+
 
 /* Row Second */
 .row2 {
@@ -52,6 +57,7 @@
     text-align: center;
 }
 
+
 /* Row Third */
 .row3 {
     width: 1200px;
@@ -60,6 +66,7 @@
     text-align: center;
 }
 
+/* Row Third column First */
 .row3c1 {
     width: 592px;
     height: 92px;
@@ -68,6 +75,7 @@
     border: 4px solid black;
 }
 
+/* Row Third column Second */
 .row3c2 {
     width: 592px;
     height: 92px;
