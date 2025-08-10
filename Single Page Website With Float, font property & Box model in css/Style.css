@@ -1,7 +1,9 @@
+
 * {
     margin: 0px;
     padding: 0px;
 }
+
 
 /* Main Div */
 .main {
@@ -146,6 +148,7 @@
     border: 4px solid rgb(0, 0, 0);
 }
 
+
 p {
     text-align: center;
     color: aliceblue;
@@ -153,4 +156,5 @@ p {
     font-weight: 600;
     text-decoration: underline;
     padding: 15px;
+
 }
