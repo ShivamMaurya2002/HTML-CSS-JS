@@ -1,20 +1,10 @@
-
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
+* { margin: 0px; padding: 0px; }
 
 /* Main Div */
-.main {
-    width: 1000px;
-    height: 500px;
-    background-color: cyan;
-    border: 2px solid rgb(0, 0, 0);
-    margin: 45px auto;
+.main { 
+    width: 1000px; height: 500px; background-color: cyan;
+    border: 2px solid rgb(0, 0, 0); margin: 45px auto; 
 }
-
-
 /* Row First */
 .row1 {
     width: 998px;
@@ -23,7 +13,6 @@
     color: rgb(255, 255, 255);
     border: 2px solid rgb(0, 0, 0);
 }
-
 /* Row First column1-5 */
 .row1c1,
 .row1c2,
@@ -41,8 +30,6 @@
     font-weight: 600;
     font-style: italic;
 }
-
-
 /* Row Second */
 .row2 {
     width: 996px;
@@ -56,17 +43,13 @@
     font-style: italic;
     padding-top: 22px;
 }
-
-
 /* Row Third */
 .row3 {
     width: 998px;
     height: 148px;
     background-color: rgb(162, 238, 184);
     border: 2px solid rgb(0, 0, 0);
-
 }
-
 /* Row Third column first */
 .row3c1 {
     width: 496px;
@@ -74,7 +57,6 @@
     background-color: rgb(205, 146, 227);
     float: left;
 }
-
 /* Row Third column first row1-5  */
 .row3c1r1,
 .row3c1r2,
@@ -91,8 +73,6 @@
     font-weight: 600;
     font-style: italic;
 }
-
-
 /* Row Third column second */
 .row3c2 {
     width: 487px;
@@ -102,8 +82,6 @@
     float: left;
     margin-left: 10px;
 }
-
-
 /* Row fourth */
 .row4 {
     width: 985.20px;
@@ -117,8 +95,6 @@
     font-style: italic;
     padding: 5px;
 }
-
-
 /* Row fifth */
 .row5 {
     width: 996px;
@@ -126,7 +102,6 @@
     background-color: rgb(115, 227, 231);
     border: 3px solid rgb(0, 0, 0);
 }
-
 /* Row fifth Column1-4 */
 .row5c1,
 .row5c2,
@@ -138,8 +113,6 @@
     border: 2px solid rgb(0, 0, 0);
     float: left;
 }
-
-
 /* Row sixth */
 .row6 {
     width: 994px;
@@ -147,8 +120,6 @@
     background-color: rgb(141, 137, 255);
     border: 4px solid rgb(0, 0, 0);
 }
-
-
 p {
     text-align: center;
     color: aliceblue;
@@ -156,5 +127,4 @@ p {
     font-weight: 600;
     text-decoration: underline;
     padding: 15px;
-
 }
