@@ -4,6 +4,7 @@
     padding: 0px;
 }
 
+
 /* Main Div */
 .main {
     margin: 30px;
@@ -12,12 +13,14 @@
     background-color: aqua;
 }
 
+
 /* Row First */
 .row1 {
     width: 1200px;
     height: 200px;
     background-color: rgb(89, 90, 89);
 }
+
 
 /* Row First Column First */
 .row1c1 {
@@ -26,6 +29,7 @@
     background-color: rgb(76, 127, 138);
     float: left;
 }
+
 
 /* Row First Column Second */
 .row1c2 {
@@ -74,4 +78,3 @@
     background-color: rgb(217, 220, 15);
     float: left;
 }
-
