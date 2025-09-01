@@ -35,7 +35,7 @@ body {
 }
 
 .hero {
-    height: 300px;
+    height: auto;
 }
 
 .heading {
@@ -46,35 +46,100 @@ body {
     font-weight: 800;
 }
 
-p {
-    padding: 15px 0 10px 0;
+.main-para {
+    padding: 15px 0 10px 15px;
     font-size: 20px;
 }
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #000000;
+}
+
 
 li {
     padding: 0 0 0 20px;
 }
 
-
-.main-div {
+/* Background (shorthand) */
+.Background_Shorthand {
     padding: 20px;
     height: auto;
 }
 
-.heading2 {
-    padding: 20px 0 0 0;
+
+/* --------------------------------------------- Background-color ------------------------------------------------- */
+.Background-color {
+    padding: 20px;
+    height: auto;
+}
+
+p {
+    padding: 15px 0 10px 0;
+    font-size: 20px;
 }
 
 h3 {
-    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
-.Background-color {
+.Color_Name {
     padding: 10px;
     text-align: center;
     font-weight: 600;
-    color: brown;
-    font-size: 44px;
+    color: black;
+    font-size: 24px;
     border: 2px solid black;
     background-color: blue;
+}
+
+.RGB {
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    border: 2px solid rgb(10, 10, 10);
+    background-color: rgb(255, 0, 0);
+}
+
+.RGBA {
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.500);
+    font-size: 24px;
+    border: 2px solid rgba(10, 10, 10, 0.500);
+    background-color: rgba(0, 255, 0, 0.500);
+}
+
+.HSL {
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    color: hsl(0, 0%, 0%);
+    font-size: 24px;
+    border: 2px solid hsl(0, 0%, 0%);
+    background-color: hsl(304, 43%, 51%);
+}
+
+.HSLA {
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    color: hsla(0, 0%, 0%, 0.500);
+    font-size: 24px;
+    border: 2px solid hsla(0, 0%, 0%, 0.500);
+    background-color: hsla(190, 86%, 43%, 0.5);
+}
+
+.HEX_Code {
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+    color: #000000;
+    font-size: 24px;
+    border: 2px solid #000000;
+    background-color: #529001;
 }
