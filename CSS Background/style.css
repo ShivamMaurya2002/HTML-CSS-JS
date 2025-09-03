@@ -57,10 +57,10 @@ hr {
     background-color: #000000;
 }
 
-
 li {
     padding: 0 0 0 20px;
 }
+
 
 /* --------------------------------------------- Background-color ------------------------------------------------- */
 
@@ -137,6 +137,7 @@ h3 {
     border: 2px solid #000000;
     background-color: #529001;
 }
+
 
 /*------------------------------------------- CSS Background-Image Property ----------------------------------------- */
 
@@ -222,6 +223,7 @@ h3 {
 
 
 /* *********************************** Background (shorthand) Property *********************************** */
+
 .Background_Shorthand {
     padding: 20px;
     height: auto;
