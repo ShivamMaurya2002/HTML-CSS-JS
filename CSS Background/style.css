@@ -62,14 +62,8 @@ li {
     padding: 0 0 0 20px;
 }
 
-/* Background (shorthand) */
-.Background_Shorthand {
-    padding: 20px;
-    height: auto;
-}
-
-
 /* --------------------------------------------- Background-color ------------------------------------------------- */
+
 .Background-color {
     padding: 20px;
     height: auto;
@@ -81,7 +75,7 @@ p {
 }
 
 h3 {
-    padding-top: 10px;
+    padding: 10px 0;
 }
 
 .Color_Name {
@@ -142,4 +136,93 @@ h3 {
     font-size: 24px;
     border: 2px solid #000000;
     background-color: #529001;
+}
+
+/*------------------------------------------- CSS Background-Image Property ----------------------------------------- */
+
+.Background-image {
+    padding: 20px;
+    height: auto;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+.main div {
+    margin: 30px 30px;
+    justify-content: space-between;
+    border: 2px solid #000000;
+    width: 200px;
+    height: 200px;
+}
+
+.BI-h3 {
+    font-size: 16px;
+    text-align: center;
+}
+
+.None {
+    background-color: aqua;
+    background-image: none;
+}
+
+.url {
+    background-image: url('Shivam22.jpg');
+    background-size: cover;
+}
+
+.Conic-gradient {
+    background-image: conic-gradient(red, yellow, green, blue, red);
+}
+
+.Repeating-conic-gradient {
+    background-image: repeating-conic-gradient(red 20deg,
+            yellow 40deg,
+            green 60deg);
+}
+
+.Linear-gradient {
+    background-image: linear-gradient(to right,
+            violet,
+            indigo,
+            blue,
+            green,
+            yellow,
+            orange,
+            red);
+}
+
+.Repeating-linear-gradient {
+    background-image: repeating-linear-gradient(45deg,
+            violet,
+            indigo,
+            blue,
+            green,
+            yellow,
+            orange,
+            red);
+}
+
+.Radial-gradient {
+    background-image: radial-gradient(circle, red, yellow, green, blue);
+}
+
+.Repeating-radial-gradient {
+    background-image: repeating-radial-gradient(circle,
+            red,
+            yellow 20px,
+            green 40px);
+}
+
+
+/* *********************************** Background (shorthand) Property *********************************** */
+.Background_Shorthand {
+    padding: 20px;
+    height: auto;
 }
