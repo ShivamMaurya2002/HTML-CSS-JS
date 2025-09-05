@@ -266,6 +266,11 @@ h3 {
     background-repeat: repeat-x;
 }
 
+.repeat-y {
+    background-color: rgb(168, 245, 245);
+    background-image: url("tree.jpeg");
+    background-repeat: repeat-y;
+}
 
 /* *********************************** Background (shorthand) Property *********************************** */
 
