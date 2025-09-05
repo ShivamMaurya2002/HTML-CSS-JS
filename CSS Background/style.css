@@ -229,6 +229,16 @@ h3 {
     height: auto;
 }
 
+.main1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    border: 2px solid black;
+    margin-top: 20px;
+    padding:20px;
+}
+
 /* *********************************** Background (shorthand) Property *********************************** */
 
 .Background_Shorthand {
