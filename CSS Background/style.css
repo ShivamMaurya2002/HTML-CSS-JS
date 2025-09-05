@@ -260,6 +260,13 @@ h3 {
     background-repeat: repeat;
 }
 
+.repeat-x {
+    background-color: rgb(168, 245, 245);
+    background-image: url("tree.jpeg");
+    background-repeat: repeat-x;
+}
+
+
 /* *********************************** Background (shorthand) Property *********************************** */
 
 .Background_Shorthand {
