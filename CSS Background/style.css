@@ -278,6 +278,12 @@ h3 {
     background-repeat: no-repeat;
 }
 
+.space {
+    background-color: rgb(168, 245, 245);
+    background-image: url("tree.jpeg");
+    background-repeat: space;
+}
+
 /* *********************************** Background (shorthand) Property *********************************** */
 
 .Background_Shorthand {
