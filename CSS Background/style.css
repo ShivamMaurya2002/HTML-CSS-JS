@@ -247,6 +247,13 @@ h3 {
     height: 300px;
 }
 
+.BR-h3 {
+    font-size: 16px;
+    color: rgb(1, 14, 163);
+    padding-top: 140px;
+    text-align: center;
+}
+
 /* *********************************** Background (shorthand) Property *********************************** */
 
 .Background_Shorthand {
