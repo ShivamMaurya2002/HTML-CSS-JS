@@ -57,10 +57,10 @@ hr {
     background-color: #000000;
 }
 
+
 li {
     padding: 0 0 0 20px;
 }
-
 
 /* --------------------------------------------- Background-color ------------------------------------------------- */
 
@@ -138,7 +138,6 @@ h3 {
     background-color: #529001;
 }
 
-
 /*------------------------------------------- CSS Background-Image Property ----------------------------------------- */
 
 .Background-image {
@@ -153,14 +152,15 @@ h3 {
     gap: 10px;
     border: 2px solid black;
     margin-top: 20px;
+    padding:20px;
 }
 
 .main div {
-    margin: 30px 30px;
     justify-content: space-between;
     border: 2px solid #000000;
     width: 200px;
     height: 200px;
+    margin: 20px;
 }
 
 .BI-h3 {
@@ -292,7 +292,6 @@ h3 {
 
 
 /* *********************************** Background (shorthand) Property *********************************** */
-
 .Background_Shorthand {
     padding: 20px;
     height: auto;
