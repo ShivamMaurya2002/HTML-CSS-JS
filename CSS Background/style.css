@@ -290,7 +290,10 @@ h3 {
     background-image: url("tree.jpeg");
     background-repeat: round;
 }
+
+
 /* *********************************** Background (shorthand) Property *********************************** */
+
 .Background_Shorthand {
     padding: 20px;
     height: auto;
