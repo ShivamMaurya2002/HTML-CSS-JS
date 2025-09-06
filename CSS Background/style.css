@@ -338,6 +338,13 @@ h3 {
     background-position: center;
 }
 
+.local {
+    background-color: rgb(241, 193, 250);
+    background-image: url("tree.jpeg");
+    background-attachment: local;
+    background-repeat: no-repeat;
+}
+
 /* *********************************** Background (shorthand) Property *********************************** */
 
 .Background_Shorthand {
