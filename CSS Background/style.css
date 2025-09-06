@@ -323,6 +323,12 @@ h3 {
     text-align: center;
 }
 
+.scroll {
+    background-color: rgb(241, 193, 250);
+    background-image: url("tree.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
 /* *********************************** Background (shorthand) Property *********************************** */
 
 .Background_Shorthand {
