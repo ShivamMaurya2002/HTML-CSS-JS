@@ -329,6 +329,15 @@ h3 {
     background-repeat: no-repeat;
     background-attachment: scroll;
 }
+
+.fixed {
+    background-color: rgb(241, 193, 250);
+    background-image: url("tree.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 /* *********************************** Background (shorthand) Property *********************************** */
 
 .Background_Shorthand {
