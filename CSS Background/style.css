@@ -291,6 +291,16 @@ h3 {
     background-repeat: round;
 }
 
+.main2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 20px;
+}
+
 
 /* *********************************** Background-Attachment Property *********************************** */
 
