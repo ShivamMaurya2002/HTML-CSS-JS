@@ -294,7 +294,10 @@ h3 {
 
 /* *********************************** Background-Attachment Property *********************************** */
 
-
+.Background-attachment {
+    padding: 20px;
+    height: auto;
+}
 
 /* *********************************** Background (shorthand) Property *********************************** */
 
