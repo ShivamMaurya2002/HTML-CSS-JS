@@ -376,6 +376,85 @@ h3 {
     text-align: center;
 }
 
+.left-top {
+    background-color: rgb(241, 193, 250);
+    background-image: url("tree.jpeg");
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.left-center {
+     background-color: rgb(241, 193, 250);
+    background-image: url("tree.jpeg");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.left-bottom {
+     background-color: rgb(241, 193, 250);
+    background-image: url("tree.jpeg");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.right-top {
+     background-color: rgb(241, 193, 250);
+    background-image: url("tree.jpeg");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.right-center {
+    background-color: rgb(241, 193, 250);
+    background-image: url("tree.jpeg");
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.right-bottom {
+    background-color: rgb(241, 193, 250);
+    background-image: url("tree.jpeg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.center-top {
+     background-color: rgb(241, 193, 250);
+    background-image: url("tree.jpeg");
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.center-center {
+     background-color: rgb(241, 193, 250);
+    background-image: url("tree.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.center-bottom {
+    background-color: rgb(241, 193, 250);
+    background-image: url("tree.jpeg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.length-value {
+     background-color: rgb(241, 193, 250);
+    background-image: url("tree.jpeg");
+    background-repeat: no-repeat;
+    background-position: 10px 20px;
+}
+
+.percentage {
+     background-color: rgb(241, 193, 250);
+    background-image: url("tree.jpeg");
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+}
+
+
+
 /* *********************************** Background (shorthand) Property *********************************** */
 .Background_Shorthand {
     padding: 20px;
