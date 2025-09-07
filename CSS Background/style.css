@@ -361,6 +361,15 @@ h3 {
     padding: 20px;
 }
 
+.main3 div {
+    margin: 10px;
+    justify-content: space-between;
+    border: 2px solid #000000;
+    width: 230px;
+    height: 230px;
+}
+
+
 /* *********************************** Background (shorthand) Property *********************************** */
 .Background_Shorthand {
     padding: 20px;
