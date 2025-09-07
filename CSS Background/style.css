@@ -343,6 +343,16 @@ h3 {
     background-repeat: no-repeat;
 }
 
+
+/* *********************************** Background Position Property *********************************** */
+
+.background-position {
+    padding: 20px;
+    height: auto;
+}
+
+
+
 /* *********************************** Background (shorthand) Property *********************************** */
 .Background_Shorthand {
     padding: 20px;
