@@ -171,7 +171,7 @@ h3 {
 }
 
 .None {
-    background-color: aqua;
+    background: aqua;
     background-image: none;
 }
 
@@ -257,37 +257,37 @@ h3 {
 }
 
 .repeat {
-    background-color: rgb(168, 245, 245);
+    background: rgb(168, 245, 245);
     background-image: url("tree.jpeg");
     background-repeat: repeat;
 }
 
 .repeat-x {
-    background-color: rgb(168, 245, 245);
+    background: rgb(168, 245, 245);
     background-image: url("tree.jpeg");
     background-repeat: repeat-x;
 }
 
 .repeat-y {
-    background-color: rgb(168, 245, 245);
+    background: rgb(168, 245, 245);
     background-image: url("tree.jpeg");
     background-repeat: repeat-y;
 }
 
 .no-repeat {
-    background-color: rgb(168, 245, 245);
+    background: rgb(168, 245, 245);
     background-image: url("tree.jpeg");
     background-repeat: no-repeat;
 }
 
 .space {
-    background-color: rgb(168, 245, 245);
+    background: rgb(168, 245, 245);
     background-image: url("tree.jpeg");
     background-repeat: space;
 }
 
 .round {
-    background-color: rgb(168, 245, 245);
+    background: rgb(168, 245, 245);
     background-image: url("tree.jpeg");
     background-repeat: round;
 }
@@ -326,14 +326,14 @@ h3 {
 }
 
 .scroll {
-    background-color: rgb(241, 193, 250);
+    background: rgb(241, 193, 250);
     background-image: url("tree.jpeg");
     background-repeat: no-repeat;
     background-attachment: scroll;
 }
 
 .fixed {
-    background-color: rgb(241, 193, 250);
+    background: rgb(241, 193, 250);
     background-image: url("tree.jpeg");
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -341,7 +341,7 @@ h3 {
 }
 
 .local {
-    background-color: rgb(241, 193, 250);
+    background: rgb(241, 193, 250);
     background-image: url("tree.jpeg");
     background-attachment: local;
     background-repeat: no-repeat;
@@ -350,7 +350,7 @@ h3 {
 
 /* *********************************** Background Position Property *********************************** */
 
-.background-position {
+.Background-position {
     padding: 20px;
     height: auto;
 }
@@ -381,77 +381,77 @@ h3 {
 }
 
 .left-top {
-    background-color: rgb(241, 193, 250);
+    background: rgb(241, 193, 250);
     background-image: url("tree.jpeg");
     background-repeat: no-repeat;
     background-position: left top;
 }
 
 .left-center {
-    background-color: rgb(241, 193, 250);
+    background: rgb(241, 193, 250);
     background-image: url("tree.jpeg");
     background-repeat: no-repeat;
     background-position: left center;
 }
 
 .left-bottom {
-    background-color: rgb(241, 193, 250);
+    background: rgb(241, 193, 250);
     background-image: url("tree.jpeg");
     background-repeat: no-repeat;
     background-position: left bottom;
 }
 
 .right-top {
-    background-color: rgb(241, 193, 250);
+    background: rgb(241, 193, 250);
     background-image: url("tree.jpeg");
     background-repeat: no-repeat;
     background-position: right top;
 }
 
 .right-center {
-    background-color: rgb(241, 193, 250);
+    background: rgb(241, 193, 250);
     background-image: url("tree.jpeg");
     background-repeat: no-repeat;
     background-position: right center;
 }
 
 .right-bottom {
-    background-color: rgb(241, 193, 250);
+    background: rgb(241, 193, 250);
     background-image: url("tree.jpeg");
     background-repeat: no-repeat;
     background-position: right bottom;
 }
 
 .center-top {
-    background-color: rgb(241, 193, 250);
+    background: rgb(241, 193, 250);
     background-image: url("tree.jpeg");
     background-repeat: no-repeat;
     background-position: center top;
 }
 
 .center-center {
-    background-color: rgb(241, 193, 250);
+    background: rgb(241, 193, 250);
     background-image: url("tree.jpeg");
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 .center-bottom {
-    background-color: rgb(241, 193, 250);
+    background: rgb(241, 193, 250);
     background-image: url("tree.jpeg");
     background-repeat: no-repeat;
     background-position: center bottom;
 }
 
 .length-value {
-    background-color: rgb(241, 193, 250);
+    background: rgb(241, 193, 250);
     background-image: url("tree.jpeg");
     background-repeat: no-repeat;
     background-position: 10px 20px;
 }
 
 .percentage {
-    background-color: rgb(241, 193, 250);
+    background: rgb(241, 193, 250);
     background-image: url("tree.jpeg");
     background-repeat: no-repeat;
     background-position: 50% 30%;
@@ -567,7 +567,6 @@ h3 {
     background-origin: content-box;
 }
 
-
 /* *********************************** Background Size Property *********************************** */
 
 .Background-size {
@@ -600,40 +599,41 @@ h3 {
     text-align: center;
 }
 
-.size-auto{
+.size-auto {
     background: cyan;
     background-image: url("tree.jpeg");
-    background-repeat:no-repeat;
-    background-size:auto;
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
-.size-length{
+.size-length {
     background: cyan;
     background-image: url("tree.jpeg");
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: 100px 100px;
 }
 
-.size-percentage{
+.size-percentage {
     background: cyan;
     background-image: url("tree.jpeg");
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: 60% 70%;
 }
 
-.size-cover{
+.size-cover {
     background: cyan;
     background-image: url("tree.jpeg");
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
-.size-contain{
+.size-contain {
     background: cyan;
     background-image: url("tree.jpeg");
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: contain;
 }
+
 
 /* *********************************** Background (shorthand) Property *********************************** */
 
