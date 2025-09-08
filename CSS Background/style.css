@@ -512,6 +512,61 @@ h3 {
     background-clip: content-box;
 }
 
+/* *********************************** Background Origin Property *********************************** */
+
+.Background-origin {
+    padding: 20px;
+    height: auto;
+}
+
+.main5 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.main5 div {
+    margin: 10px;
+    padding: 20px;
+    justify-content: space-between;
+    border: 10px dashed rgb(178, 65, 65);
+    width: 250px;
+    height: 250px;
+}
+
+.BO-h3 {
+    font-size: 16px;
+    color: rgb(1, 14, 163);
+    padding-top: 195px;
+    text-align: center;
+}
+
+
+.Origin-border-box {
+    background: cyan;
+    background-image: url("tree.jpeg");
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}
+
+.Origin-padding-box {
+    background: cyan;
+    background-image: url("tree.jpeg");
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+}
+
+.Origin-content-box {
+    background: cyan;
+    background-image: url("tree.jpeg");
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
 /* *********************************** Background (shorthand) Property *********************************** */
 
 .Background_Shorthand {
