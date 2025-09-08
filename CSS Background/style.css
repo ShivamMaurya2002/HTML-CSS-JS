@@ -457,6 +457,61 @@ h3 {
     background-position: 50% 30%;
 }
 
+/* *********************************** Background Clip Property *********************************** */
+
+.Background-clip {
+    padding: 20px;
+    height: auto;
+}
+
+.main4 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.main4 div {
+    margin: 10px;
+    padding: 20px;
+    justify-content: space-between;
+    border: 10px dashed rgb(178, 65, 65);
+    width: 250px;
+    height: 250px;
+}
+
+.BC-h3 {
+    font-size: 16px;
+    color: rgb(1, 14, 163);
+    padding-top: 195px;
+    text-align: center;
+}
+
+
+.Clip-border-box {
+    background: cyan;
+    background-image: url("tree.jpeg");
+    background-repeat: no-repeat;
+    background-clip: border-box;
+}
+
+.Clip-padding-box {
+    background: cyan;
+    background-image: url("tree.jpeg");
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+}
+
+.Clip-content-box {
+    background: cyan;
+    background-image: url("tree.jpeg");
+    background-repeat: no-repeat;
+    background-clip: content-box;
+}
+
 /* *********************************** Background (shorthand) Property *********************************** */
 
 .Background_Shorthand {
