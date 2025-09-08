@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -457,6 +458,7 @@ h3 {
     background-position: 50% 30%;
 }
 
+
 /* *********************************** Background Clip Property *********************************** */
 
 .Background-clip {
@@ -490,7 +492,6 @@ h3 {
     text-align: center;
 }
 
-
 .Clip-border-box {
     background: cyan;
     background-image: url("tree.jpeg");
@@ -511,6 +512,7 @@ h3 {
     background-repeat: no-repeat;
     background-clip: content-box;
 }
+
 
 /* *********************************** Background Origin Property *********************************** */
 
@@ -545,7 +547,6 @@ h3 {
     text-align: center;
 }
 
-
 .Origin-border-box {
     background: cyan;
     background-image: url("tree.jpeg");
@@ -566,6 +567,7 @@ h3 {
     background-repeat: no-repeat;
     background-origin: content-box;
 }
+
 
 /* *********************************** Background Size Property *********************************** */
 
