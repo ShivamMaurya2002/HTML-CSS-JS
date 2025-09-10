@@ -8,3 +8,11 @@ body {
     background-color: rgb(250, 235, 215);
     font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
 }
+
+.header {
+    padding: 8px 20px 8px 20px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: rgb(1, 30, 66);
+}
