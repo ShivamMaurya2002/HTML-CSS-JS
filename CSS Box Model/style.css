@@ -16,11 +16,25 @@ body {
     background-color: rgb(1, 30, 66);
 }
 
-.logo-container{
+.logo-container {
     height: 40px;
     width: 40px;
     border: 2px solid rgb(14, 14, 230);
     border-radius: 30px;
+}
+
+img {
+    height: 40px;
+    width: 40px;
+    border-radius: 30px;
+    background-size: contain;
+}
+
+.logo {
+    padding: 0 640px 0 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(14, 14, 230);
 }
 
 .nev a {
