@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +8,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
 }
 
+/* Header */
 .header {
     padding: 8px 20px 8px 20px;
     justify-content: space-between;
@@ -38,6 +38,7 @@ img {
     color: rgb(14, 14, 230);
 }
 
+/* Nev-Bar */
 .nev a {
     text-decoration: none;
     font-size: 18px;
@@ -50,6 +51,7 @@ img {
     border-radius: 8px;
 }
 
+/* Hero Section */
 .section {
     height: auto;
     padding: 0 0 20px 20px;
@@ -64,7 +66,7 @@ img {
 }
 
 .para {
-    padding: 10px 0 10px 0px;
+    padding: 5px 0 10px 0px;
     font-size: 20px;
 }
 
@@ -75,6 +77,109 @@ hr {
 }
 
 li {
+    font-size: 18px;
     margin-left: 20px;
     padding-left: 5px;
+}
+
+
+/* ************************************************* BOX MODEL **************************************************** */
+
+.box {
+    padding: 20px;
+    height: auto;
+}
+
+/* Main-Div */
+.main {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+/* Margin */
+.margin {
+    text-align: center;
+    color: rgb(240, 74, 74);
+    border: 4px dashed rgb(240, 74, 74);
+    width: 450px;
+    height: 450px;
+    margin: 15px;
+}
+
+/* Border */
+.border {
+    text-align: center;
+    color: rgb(71, 68, 235);
+    border: 4px solid rgb(71, 68, 235);
+    width: 330px;
+    height: 330px;
+    margin: 15px 35px 45px 55px;
+}
+
+/* Padding */
+.padding {
+    text-align: center;
+    color: rgb(63, 211, 85);
+    border: 4px dotted rgb(63, 211, 85);
+    width: 210px;
+    height: 210px;
+    margin: 15px 35px 45px 55px;
+}
+
+/* content */
+.content {
+    text-align: center;
+    color: rgb(152, 62, 193);
+    border: 4px solid rgb(152, 62, 193);
+    width: 90px;
+    height: 90px;
+    margin: 15px 35px 45px 55px;
+}
+
+/* Heading1 */
+.heading1 {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+/* Heading2 */
+.heading2 {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+/* Heading3*/
+.heading3 {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+/* Heading4 */
+.heading4 {
+    padding-top: 30px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+
+/* ************************************* BOX Model Parts Property and its values in CSS ********************************************* */
+
+.Content,
+.Padding,
+.Border,
+.Margin {
+    padding: 20px;
+    height: auto;
+}
+
+h3 { padding: 10px 0; }
+
+.h3 {
+    padding-top: 10px;
+    color: rgb(22, 22, 22);
+    font-size: 32px;
 }
