@@ -1,6 +1,5 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0; padding: 0;
 }
 
 body {
@@ -28,7 +27,7 @@ body {
     color: white;
 }
 
-.nev-link {
+.nev-link { 
     margin: 15px;
 }
 
