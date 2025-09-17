@@ -62,7 +62,7 @@ p span {
 }
 
 hr {
-    margin: 10px 0;
+    margin: 20px 0;
     border: none;
     height: 2px;
     background-color: #000000;
@@ -71,7 +71,6 @@ hr {
 h3 {
     padding-top: 5px;
     font-size: 24px;
-    text-decoration: underline;
 }
 
 li {
