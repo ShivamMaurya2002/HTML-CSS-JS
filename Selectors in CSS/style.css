@@ -80,21 +80,31 @@ li {
     font-size: 20px;
 }
 
-h2{
+h2 {
     margin-left: 50px;
     padding-top: 10px;
     font-size: 20px;
     text-decoration: underline;
 }
 
-.para{
+.para {
     margin-left: 50px;
-    padding-top:10px;
+    padding-top: 10px;
     font-size: 20px;
 }
 
 code {
     border: 2px solid black;
-    padding:10px;
-    color:rgb(255, 0, 0);
+    padding: 5px;
+    color: rgb(255, 0, 0);
+}
+
+pre {
+    margin: 0px 70px;
+    background: #dfdfd6;
+    padding: 10px 0px 0px 0px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-size: 16px;
 }
