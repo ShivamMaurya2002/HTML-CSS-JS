@@ -150,9 +150,29 @@
         <h2>2. Child combinator (>):-</h2>
         <p class="para">
             The child combinator selects all elements that are direct children of a specified element.
-            <br> The following example selects all elements that are direct children of &lt;div&gt;.<br><br>
-            Example: <code> div > p { background-color: yellow; } </code>
+            <br><br> The following example selects all elements that are direct children of <code>&lt;div&gt;</code>.<br><br>
+            Example:
         </p>
+
+        <pre>
+            &lt;!-- HTML Code --&gt;
+            &lt;div&gt;
+
+                &lt;p&gt;This paragraph is a DIRECT child of div (will be yellow).&lt;/p&gt;
+
+                &lt;section&gt;
+                    &lt;p&gt;This paragraph is inside section, NOT a direct child of div (not yellow).&lt;/p&gt;
+                &lt;/section&gt;
+
+            &lt;/div&gt;
+            
+            &lt;!-- CSS Code --&gt;
+            div &gt; p {
+                background-color: yellow;
+                padding: 5px;
+                border: 1px solid black;
+            }
+        </pre>
     </section>
 </body>
 </html>
