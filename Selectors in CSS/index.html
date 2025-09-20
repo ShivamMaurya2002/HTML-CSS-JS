@@ -125,9 +125,27 @@
             The descendant combinator (a single space) is used to select elements that are nested inside another
             element, no matter how deep they are (children, grandchildren, etc).<br><br>
             Example: The following CSS selects all <code>&lt;p&gt;</code> elements that are inside
-            <code>&lt;div&gt;</code> elements.<br><br><br>
-            Example: <code> div p { color: blue; font-weight: bold; } </code>
+            <code>&lt;div&gt;</code> elements.<br><br>
         </p>
+
+        <pre>
+            &lt;!-- HTML Code --&gt;
+            &lt;div&gt;
+
+                &lt;p&gt;This paragraph is inside div (will be blue &amp; bold).&lt;/p&gt;
+
+                &lt;section&gt;
+                    &lt;p&gt;This paragraph is inside a section inside div (also blue &amp; bold).&lt;/p&gt;
+                &lt;/section&gt;
+
+            &lt;/div&gt;
+
+            &lt;!-- CSS Code --&gt;
+            div p {
+                color: blue;
+                font-weight: bold;
+            }
+        </pre>
 
         <h2>2. Child combinator (>):-</h2>
         <p class="para">
