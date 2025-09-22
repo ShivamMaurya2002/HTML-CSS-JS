@@ -150,7 +150,8 @@
         <h2>2. Child combinator (>):-</h2>
         <p class="para">
             The child combinator selects all elements that are direct children of a specified element.
-            <br><br> The following example selects all elements that are direct children of <code>&lt;div&gt;</code>.<br><br>
+            <br><br> The following example selects all elements that are direct children of
+            <code>&lt;div&gt;</code>.<br><br>
             Example:
         </p>
 
@@ -180,7 +181,8 @@
             <br> OR
             <br> The next sibling combinator is used to select an element that is directly after a specific element.
             <br> Sibling elements must have the same parent element.
-            <br><br> The following example selects the first <code>&lt;p&gt;</code> element that immediately follows a <code>&lt;div&gt;</code>,
+            <br><br> The following example selects the first <code>&lt;p&gt;</code> element that immediately follows a
+            <code>&lt;div&gt;</code>,
             and share the same parent:<br><br>
             Example:
         </p>
@@ -204,6 +206,37 @@
                 border: 1px solid black;
             }
         </pre>
+
+        <h2>4. Subsequent-sibling Combinator (~):-</h2>
+
+        <p class="para">
+            The ~ combinator selects all elements that are next siblings of a specified element.<br>
+            The following example selects all p elements that are next siblings of div, and share the same parent:
+        </p>
+
+        <pre>
+            &lt;!-- Html Code --&gt;
+            &lt;div&gt;
+                &lt;p&gt;This is Paragraph One.&lt;/p&gt;    
+            &lt;/div&gt;
+
+            &lt;p&gt;This is Paragraph Two.&lt;/p&gt; 
+
+            &lt;Span&gt;Some other line of code.&lt;/Span&gt;    
+
+            &lt;p&gt;This is Paragraph Three.&lt;/p&gt;        
+            
+            &lt;p&gt;!-- CSS Code --&lt;/p&gt;   
+            
+            div ~ p {
+                background-color: red;
+                padding: 10px;
+                border: 2px solid black;
+            }
+        </pre>
+
+         <h1>3. Pseudo-class Selectors:-</h1>
+
     </section>
 </body>
 
