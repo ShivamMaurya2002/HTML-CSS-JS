@@ -46,11 +46,21 @@
         <p> CSS selectors are mainly divided in five categories, they are:-</p>
 
         <ul>
-            <li><b>Simple Selectors:</b> Select elements by their name, id, or class. </li>
-            <li><b>Combinator Selectors:</b> Select elements based on their relationship with other elements (like inside, next to, etc). </li>
-            <li><b>Pseudo-class Selectors:</b> Select elements in a special state (like hover, first child, etc). </li>
-            <li><b>Pseudo-element Selectors:</b> Select and style part of an element (like first letter, first line, etc). </li>
-            <li><b>Attribute Selectors:</b> Select elements using their attributes or attribute values (like [type="text"]). </li>
+            <li><b>Simple Selectors:</b>
+                Select elements by their name, id, or class.
+            </li>
+            <li><b>Combinator Selectors:</b>
+                Select elements based on their relationship with other elements (like inside, next to, etc).
+            </li>
+            <li><b>Pseudo-class Selectors:</b>
+                Select elements in a special state (like hover, first child, etc).
+            </li>
+            <li><b>Pseudo-element Selectors:</b>
+                Select and style part of an element (like first letter, first line, etc).
+            </li>
+            <li><b>Attribute Selectors:</b>
+                Select elements using their attributes or attribute values (like [type="text"]).
+            </li>
         </ul>
 
         <hr>
@@ -113,7 +123,8 @@
 
         <h2>1. Descendant combinator (space):-</h2>
         
-        <p class="para"> The descendant combinator (a single space) is used to select elements that are nested inside another
+        <p class="para">
+            The descendant combinator (a single space) is used to select elements that are nested inside another
             element, no matter how deep they are (children, grandchildren, etc).<br><br>
             Example: The following CSS selects all <code>&lt;p&gt;</code> elements that are inside <code>&lt;div&gt;</code> elements.<br><br>
         </p>
@@ -139,9 +150,9 @@
 
         <h2>2. Child combinator (>):-</h2>
         
-        <p class="para"> The child combinator selects all elements that are direct children of a specified element.
-            <br><br> The following example selects all elements that are direct children of
-            <code>&lt;div&gt;</code>.<br><br>
+        <p class="para">
+            The child combinator selects all elements that are direct children of a specified element.
+            <br><br> The following example selects all elements that are direct children of <code>&lt;div&gt;</code>.<br><br>
             Example:
         </p>
 
@@ -199,8 +210,9 @@
 
         <h2>4. Subsequent-sibling Combinator (~):-</h2>
 
-        <p class="para"> The ~ combinator selects all elements that are next siblings of a specified element.
-            <br> The following example selects all p elements that are next siblings of div, and share the same parent:
+        <p class="para">
+            The ~ combinator selects all elements that are next siblings of a specified element.<br>
+            The following example selects all p elements that are next siblings of div, and share the same parent:
         </p>
 
         <pre>
@@ -223,6 +235,10 @@
                 border: 2px solid black;
             }
         </pre>
+
+        <hr>
+
+        <!-- ***************************************** Pseudo-Class Selectors: ******************************************** -->
 
         <h1>3. Pseudo-class Selectors:-</h1>
 
@@ -251,22 +267,23 @@
 
         <p class="para">
             Link-related pseudo-classes are special CSS selectors used to style hyperlink (<a>) elements based on their
-            state - whether the link is unvisited, visited, being hovered over, or currently clicked.
-            <br> These pseudo-classes allow you to change the appearance of links dynamically depending on the user interaction.<br>
+                state - whether the link is unvisited, visited, being hovered over, or currently clicked.
+                <br> These pseudo-classes allow you to change the appearance of links dynamically depending on the user interaction.<br>
 
-            <span>
-                <b>Link-related Pseudo-classes & Their Meaning:-</b>
-            </span>
+                <span>
+                    <b>Link-related Pseudo-classes & Their Meaning:-</b>
+                </span>
 
-            <li><b>:link:-</b> Selects links that have not been visited yet.</li>
-            <li><b>:visited:-</b> Selects links that the user has already visited.</li>
-            <li><b>:hover:-</b> Selects a link when the mouse pointer is over it.</li>
-            <li><b>:active:-</b> Selects a link at the moment it is being clicked.</li>
+                <li><b>:link:-</b> Selects links that have not been visited yet.</li>
+                <li><b>:visited:-</b> Selects links that the user has already visited.</li>
+                <li><b>:hover:-</b> Selects a link when the mouse pointer is over it.</li>
+                <li><b>:active:-</b> Selects a link at the moment it is being clicked.</li>
         </p>
-        
+
         <h2> 2. Form-related pseudo-classes:-</h2>
 
-        <p class="para"> Form-related pseudo-classes in CSS are used to style form elements (input, textarea, select, etc.)
+        <p class="para">
+            Form-related pseudo-classes in CSS are used to style form elements (input, textarea, select, etc.)
             <br>based on their state or condition - like when a field is focused, disabled, checked, required, valid, or invalid.<br>
             They help make forms more interactive, user-friendly, and clear for users.
 
@@ -282,13 +299,14 @@
             <li><b>:optional:-</b> Selects input fields that are not required.</li>
             <li><b>:valid:-</b> Selects inputs where the entered value is valid.</li>
             <li><b>:invalid:-</b> Selects inputs where the entered value is invalid.</li>
-        </p>    
+        </p>
 
         <h2> 3. Structural Pseudo-classes:- </h2>
 
-        <p class="para"> Structural pseudo-classes in CSS are used to style elements based on their &lt;strong&gt;position or
-            structure &lt;/strong&gt; within the parent element (like first child, last child, nth child, etc.).
-            <br>They allow us to apply styles without adding extra classes or IDs, making the code cleaner and more  efficient.
+        <p class="para">
+            Structural pseudo-classes in CSS are used to style elements based on their &lt;strong&gt;position or structure&lt;/strong&gt; 
+            within the parent element (like first child, last child, nth child, etc.).
+            <br>They allow us to apply styles without adding extra classes or IDs, making the code cleaner and more efficient.
 
             <Span>
                 <b> Structural Pseudo-classes & Their Meaning:-</b>
@@ -306,10 +324,11 @@
             <li><b>:only-of-type:-</b> Selects an element if it is the only one of its type inside the parent.</li>
             <li><b>:empty:-</b> Selects elements that have no children (including text nodes).</li>
         </p>
-        
+
         <h2>4. UI/State Pseudo-classes:-</h2>
 
-        <p class="para"> UI/State pseudo-classes in CSS are used to style elements based on their &lt;strong&gt;user interaction or current state&lt;/strong&gt;.
+        <p class="para">
+            UI/State pseudo-classes in CSS are used to style elements based on their &lt;strong&gt;user interaction or current state&lt;/strong&gt;.
             <br>They are mostly applied to form fields and interactive elements when they are active, hovered, or being interacted with.
 
             <Span>
@@ -323,16 +342,15 @@
             <li><b>:focus-visible:-</b> Selects an element when it receives focus, but only if it should be visibly indicated (like with keyboard navigation).</li>
             <li><b>:target:-</b> Selects an element whose ID matches the URL fragment (e.g., <code>#section</code> in URL).</li>
         </p>
-    
 
-       <!-- ***************************************** Pseudo-element Selectors ******************************************** -->
+        <hr>
+
+        <!-- ***************************************** Pseudo-element Selectors ******************************************** -->
 
         <h1>4. Pseudo-element Selectors :-</h1>
 
-        <p>
-            Pseudo-elements in CSS are used to style specific parts of an element.
-            They let you apply styles to <strong>parts of content</strong> that are not directly accessible with normal
-            selectors, like the first letter, first line, or content before/after an element.
+        <p> Pseudo-elements in CSS are used to style specific parts of an element. They let you apply styles to 
+            <strong>parts of content</strong> that are not directly accessible with normal selectors, like the first letter, first line, or content before/after an element.
         </p>
 
         <li><b>::first-letter:-</b> Selects and styles the first letter of a text.</li>
@@ -345,48 +363,38 @@
 
         <hr>
 
-<!-- ************************************** Attribute Selectors Selectors ******************************************** -->
+        <!-- ************************************** Attribute Selectors Selectors ******************************************** -->
 
         <h1>5. Attribute Selectors:-</h1>
 
-        <p>
-            Attribute selectors in CSS are used to select elements based on the presence or value of their attributes.
-            They allow styling of elements <strong>without using extra classes or IDs</strong>, making the code shorter
-            and more flexible.
+        <p> Attribute selectors in CSS are used to select elements based on the presence or value of their attributes. They allow styling of elements 
+            <strong>without using extra classes or IDs</strong>, making the code shorter and more flexible.
         </p>
 
         <li><b>[attr] :-</b> Selects elements that have the given attribute.<br><br>
             Example → <code>[title]</code> selects all elements with a <code>title</code> attribute.</li><br>
 
-        <li><b>[attr="value"] :-</b> Selects elements where the attribute value exactly matches the given
-            value.<br><br>
+        <li><b>[attr="value"] :-</b> Selects elements where the attribute value exactly matches the given value.<br><br>
             Example → <code>[type="text"]</code> selects all text input fields.</li><br>
 
-        <li><b>[attr~="value"] :-</b> Selects elements where the attribute value contains the specified word
-            (separated by spaces).<br><br>
+        <li><b>[attr~="value"] :-</b> Selects elements where the attribute value contains the specified word (separated by spaces).<br><br>
             Example → <code>[class~="btn"]</code> selects elements with class containing the word "btn".</li><br>
 
-        <li><b>[attr|="value"] :-</b> Selects elements where the attribute value is exactly "value" or starts with
-            "value-".<br><br>
-            Example → <code>[lang|="en"]</code> selects elements with <code>lang="en"</code> or
-            <code>lang="en-US"</code>.
-        </li><br>
+        <li><b>[attr|="value"] :-</b> Selects elements where the attribute value is exactly "value" or starts with "value-".<br><br>
+            Example → <code>[lang|="en"]</code> selects elements with <code>lang="en"</code> or <code>lang="en-US"</code>. </li><br>
 
-        <li><b>[attr^="value"] :-</b> Selects elements where the attribute value starts with the given
-            value.<br><br>
+        <li><b>[attr^="value"] :-</b> Selects elements where the attribute value starts with the given value.<br><br>
             Example → <code>[href^="https"]</code> selects links that start with "https".</li><br>
 
         <li><b>[attr$="value"] :-</b> Selects elements where the attribute value ends with the given value.<br><br>
             Example → <code>[src$=".jpg"]</code> selects all images ending with ".jpg".</li><br>
 
-        <li><b>[attr*="value"] :-</b> Selects elements where the attribute value contains the given value (anywhere
-            in the string).<br><br>
+        <li><b>[attr*="value"] :-</b> Selects elements where the attribute value contains the given value (anywhere in the string).<br><br>
             Example → <code>[title*="learn"]</code> selects elements with "learn" in the title.</li><br>
 
-            <hr>
-        
-    </section>
-    
-</body>
+        <hr>
 
+    </section>
+
+</body>
 </html>
