@@ -22,3 +22,10 @@ body {
     font-size: 20px;
     margin: 0;
 }
+
+.menu ul {
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
