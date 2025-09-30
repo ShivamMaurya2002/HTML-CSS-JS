@@ -4,20 +4,23 @@
 }
 
 body {
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(213, 212, 212);
     font-family: 'Times New Roman', Times, serif;
 }
+
+
+/* **************************************************** Nev-bar / Menu ********************************************* */
 
 .nev {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 46, 77);
     padding: 15px;
 }
 
 .logo p {
-    color: rgb(38, 131, 212);
+    color: rgb(82, 227, 225);
     font-weight: 600;
     font-size: 20px;
     margin: 0;
@@ -32,7 +35,7 @@ body {
 
 .menu ul li {
     list-style: none;
-     color: rgb(38, 131, 212);
+    color: rgb(82, 227, 225);
     font-weight: 600;
     font-size: 20px;
 }
@@ -42,6 +45,7 @@ body {
     text-decoration: none;
     font-weight: 500;
 }
+
 
 /* ******************************************************** Main-Div ************************************************ */
 
