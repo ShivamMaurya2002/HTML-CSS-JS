@@ -22,7 +22,7 @@ body {
 .logo p {
     color: rgb(82, 227, 225);
     font-weight: 600;
-    font-size: 20px;
+    font-size: 28px;
     margin: 0;
 }
 
@@ -37,7 +37,7 @@ body {
     list-style: none;
     color: rgb(82, 227, 225);
     font-weight: 600;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .menu ul li a {
@@ -66,12 +66,12 @@ body {
     text-align: center;
     font-size: 20px;
     font-weight: 500;
-    padding: 0 30px 10px 30px ;
+    padding: 0 30px 10px 30px;
 }
 
 hr {
     border: 1px solid rgb(2, 61, 41);
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 p {
