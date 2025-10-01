@@ -73,3 +73,48 @@ hr {
     border: 1px solid rgb(2, 61, 41);
     margin: 5px 0;
 }
+
+p {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+p span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+ol li {
+    margin-left: 20px;
+    line-height: 1.5;
+    letter-spacing: normal;
+    word-spacing: normal;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.h2 {
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.para {
+    line-height: 1.25;
+    padding: 0 25px;
+    font-size: 18px;
+}
+
+h3 {
+    margin: 5px 0;
+    line-height: 1.25;
+    padding-left: 25px;
+    font-size: 18px;
+}
+
+li {
+    font-size: 17px;
+    margin: 0 40px 5px 40px;
+    line-height: 1.25;
+    letter-spacing: 0.5px;
+    word-spacing: 5px;
+}
