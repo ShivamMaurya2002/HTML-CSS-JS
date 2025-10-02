@@ -16,7 +16,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: rgb(0, 46, 77);
-    padding: 15px;
+    padding: 10px 10px 10px 30px;
 }
 
 .logo p {
@@ -28,12 +28,13 @@ body {
 
 .menu ul {
     display: flex;
-    gap: 15px;
     padding: 0;
     margin: 0;
 }
 
 .menu ul li {
+    margin: 0;
+    padding: 0 20px 0 10px;
     list-style: none;
     color: rgb(82, 227, 225);
     font-weight: 600;
@@ -45,7 +46,6 @@ body {
     text-decoration: none;
     font-weight: 500;
 }
-
 
 /* ******************************************************** Main-Div ************************************************ */
 
