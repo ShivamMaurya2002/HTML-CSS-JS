@@ -38,3 +38,15 @@ ol {
     margin-left: 10px;
     padding-left: 15px;
 }
+
+ol li {
+    padding: 5px 0;
+    font-size: 20px;
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    height: 2px;
+    background-color: #000000;
+}
