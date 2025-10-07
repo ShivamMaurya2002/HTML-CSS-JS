@@ -28,3 +28,13 @@ body {
     font-size: 24px;
     font-weight: 600;
 }
+
+.para {
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+ol {
+    margin-left: 10px;
+    padding-left: 15px;
+}
