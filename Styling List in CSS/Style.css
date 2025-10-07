@@ -50,3 +50,15 @@ hr {
     height: 2px;
     background-color: #000000;
 }
+
+.h3 {
+    padding-bottom: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-thickness: 2.5px;
+    text-underline-offset: 4px;
+    /* Or in shorthand we can write in this way*/
+    /* text-decoration: underline blue solid 2.5px;
+    text-underline-offset: 4px; */
+}
