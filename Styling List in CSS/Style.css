@@ -73,3 +73,10 @@ h3 {
     padding: 5px 0;
     font-size: 18px;
 }
+
+code {
+    color: #06345c;
+    padding: 2px 3px;
+    border-radius: 4px;
+    font-size: 18px;
+}
