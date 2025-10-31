@@ -53,3 +53,20 @@ li a:hover {
 li:last-child a {
     border-radius: 0 0 2rem 2rem;
 }
+
+/* Paragraph styling */
+p {
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    margin-bottom: 20px;
+}
+
+p a {
+    color: #ff6b35;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+p a:hover {
+    color: #d94a21;
+}
