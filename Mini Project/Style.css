@@ -26,17 +26,11 @@ h2 {
     border-radius: 2rem 2rem 0 0;
 }
 
-ul {
-    list-style-type: none;
-}
+ul { list-style-type: none; }
 
-li {
-    border-top: 1px solid #333;
-}
+li { border-top: 1px solid #333; }
 
-li a {
-    display: block;
-}
+li a { display: block; }
 
 li a,
 li a:visited {
@@ -50,11 +44,10 @@ li a:hover {
 }
 
 /* Selecting the last <li> and styling its <a> tag */
-li:last-child a {
+li:last-child a { 
     border-radius: 0 0 2rem 2rem;
 }
 
-/* Paragraph styling */
 p {
     font-size: 1.1rem;
     margin-top: 2rem;
@@ -67,6 +60,6 @@ p a {
     text-decoration: underline;
 }
 
-p a:hover {
-    color: #d94a21;
+p a:hover { 
+    color: #d94a21; 
 }
