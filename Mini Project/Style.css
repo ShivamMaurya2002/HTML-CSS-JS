@@ -37,3 +37,19 @@ li {
 li a {
     display: block;
 }
+
+li a,
+li a:visited {
+    text-decoration: none;
+    color: #333;
+}
+
+li a:hover {
+    background-color: #333;
+    color: whitesmoke;
+}
+
+/* Selecting the last <li> and styling its <a> tag */
+li:last-child a {
+    border-radius: 0 0 2rem 2rem;
+}
