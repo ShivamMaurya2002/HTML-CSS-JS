@@ -1,20 +1,21 @@
-
 * {
-  margin:0;
-  padding:0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  padding: 10px;
-  background-color: lightblue;
-  font-family: "serif" sans-serif;
-  {
-  
+    margin: 0.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
 
-H1 {
-  text-align: center;
-  Text-decoration: Underlined;
-  Font-size: 36px;
-  font-weight: 700;
-  color: blue;
+nav {
+    border: 2px solid #333;
+    border-radius: 2rem;
+    margin: 0 auto 1rem;
+    max-width: 500px;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 5rem;
 }
