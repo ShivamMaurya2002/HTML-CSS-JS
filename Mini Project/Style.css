@@ -58,6 +58,4 @@ p a {
     text-decoration: underline;
 }
 
-p a:hover { 
-    color: #d94a21; 
-}
+p a:hover { color: #d94a21; }
