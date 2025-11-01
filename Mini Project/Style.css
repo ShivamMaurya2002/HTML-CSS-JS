@@ -44,9 +44,7 @@ li a:hover {
 }
 
 /* Selecting the last <li> and styling its <a> tag */
-li:last-child a { 
-    border-radius: 0 0 2rem 2rem;
-}
+li:last-child a { border-radius: 0 0 2rem 2rem; }
 
 p {
     font-size: 1.1rem;
