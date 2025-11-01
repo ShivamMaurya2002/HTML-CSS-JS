@@ -33,10 +33,7 @@ li { border-top: 1px solid #333; }
 li a { display: block; }
 
 li a,
-li a:visited {
-    text-decoration: none;
-    color: #333;
-}
+li a:visited { text-decoration: none; color: #333; }
 
 li a:hover { background-color: #333; color: whitesmoke; }
 
